@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.my-navbar a{
+    font-size: 18px;
+    color: #000;
+}
+.my-navbar{
+    z-index: 10000000000;
+}
+.my-navbar a:hover{
+    color: #0d6efd;
+}
+.job-btn ul{
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.job-btn ul li{
+    margin: 10px 10px 10px 0;
+}
+.job-btn ul li a{
+    font-weight: 600;
+}
+.job-btn ul li a i{
+    margin-right: 8px;
+}
+.hero-header {
+    background-image: url(img/map\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+}
+.footer-img{
+    width: 150px;
+}
+.z-index-1000{
+    z-index: 1000;
+}
+
+.hero-header h1 {
+    font-size: 60px;
+}
+.list-style-none{
+    list-style: none;
+}
+.fw-600{
+    font-weight: 600;
+}
+.how-it-work img{
+    height: 4rem;
+}
+.card-text{
+    color: grey;
+}
+.text-color{
+    color: gray;
+}
+.searchbar-icon{
+    transform: translateY(-50%);
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+.blog .card-img-top{
+    height: 10rem;
+    object-fit: cover;
+}
+.header-btns a{
+    font-size: 14px;
+}
+.loction-head{
+    height: 10rem;
+}
+.fw-600{
+    font-weight: 600;
+}
+.color{
+    color: var(--bs-light);
+}

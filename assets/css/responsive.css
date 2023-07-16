@@ -1,0 +1,28 @@
+@media screen and (max-width:768px){
+    .hero-header h1{
+        font-size: 45px;
+    }
+    .searchbar-icon{
+        position: static;
+        transform:none;
+    }
+    .searchbar-icon button{
+        width: 100%;
+    }
+    .searchbar input{
+        border-right: none !important;
+    }
+    
+}
+@media screen and (max-width:425px){
+    .hero-header h1{
+        font-size: 35px;
+    }
+    
+    
+}
+@media screen and (max-width:1024px){
+    .loction-head{
+        height: 8rem;
+    }
+}
